@@ -1,3 +1,5 @@
+import Feed from "@components/Feed";
+
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
@@ -13,6 +15,7 @@ const Home = () => {
         <br />
         読んだ本を簡単に共有し、新しい発見を得ることができます。
       </p>
+      <Feed />
     </section>
   );
 };
